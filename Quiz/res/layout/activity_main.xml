@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/tro"
+    tools:context="com.alexuni.myfirstapp.MainActivity" >
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:layout_marginBottom="20dp"
+        android:textColor="#2eb7ed"
+        android:textSize="@dimen/cm" />
+    	
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <Button 
+            android:text="@string/trueB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#b3bc20"
+            android:textColorHighlight="#bab3b2"
+            android:layout_marginRight="45dp"
+            android:background="#fce17e"
+            android:id="@+id/trueButton"/>
+        <Button 
+            android:text="@string/falseB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#e52325"
+            android:background="#fce17e"
+            android:id="@+id/falseButton"/>
+    </LinearLayout>
+    
+    
+       <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <Button 
+            android:text="@string/prevt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="210dp"
+            android:id="@+id/prevButton"/>
+        	
+        <Button 
+            android:text="@string/nextt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/nextButton"/>
+    </LinearLayout>
+    
+       
+       <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        
+
+       <TextView
+           android:id="@+id/tvDisplay2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="20dp"
+           android:layout_marginTop="110dp"
+           android:text="                      1/6\nNumber of correct answers = 0\nNumber of wrong answers = 0"
+           android:textColor="#8b2252"
+           android:textSize="@dimen/abc_text_size_medium_material" />
+       
+       </LinearLayout>
+       
+</LinearLayout>
