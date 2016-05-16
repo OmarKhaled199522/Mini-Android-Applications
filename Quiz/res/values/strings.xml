@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyFirstApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="question">The capital of England is London ?</string>
+    <string name="trueB">True</string>
+    <string name="falseB">False</string>
+	<string name="nextt">>></string>
+	<string name="prevt">&lt;&lt;</string>
+	
+</resources>
